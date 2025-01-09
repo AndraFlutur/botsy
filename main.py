@@ -24,7 +24,7 @@ xoreq=set()
 xo={}
 		
 
-with urlopen("http://www.instructables.com/files/orig/FLU/YE8L/H82UHPR8/FLUYE8LH82UHPR8.txt") as response:
+with urlopen("") as response:
 	body = response.read()
 	words = body.splitlines()
 
